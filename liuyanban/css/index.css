@@ -1,0 +1,137 @@
+*{
+			margin: 0px;padding: 0px;
+		}
+		body{
+			background: #CCCCCC;
+			font-family: 宋体;
+		}
+		h3{
+			background: #006400;
+			text-align: center;
+			font-size: 50px;
+			color: #FFFFFF;
+			width: 1200px;
+			margin: 0px auto;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			font-weight: initial;
+		}
+		img{
+			width: 30px;
+		}
+		div#a1{
+			width: 1200px;background: #ADFF2F;
+			margin: 0px auto;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			overflow: hidden;
+		}
+		div#a1>a{
+			text-decoration: none;
+			font-weight: bold;
+			color: #333333;
+			padding-left: 5px;
+			margin-right: 20px;
+			float: left;
+		}
+		div#a1>p{
+			float: left;
+		}
+		div#div1 ul{
+			list-style-type: none;
+			margin: 0px auto;
+			background: #F0F2F5;
+			width: 1200px;
+			border-bottom: 10px solid #87CEEB;
+		}
+		div#div1 ul>li{
+			border-bottom: 1px dashed #000000;
+			padding: 5px;
+		}
+		div#div1 ul>li>a{
+			color: #2566C2;
+			text-decoration: none;
+		}
+		div#leavemessage{
+			width: 1200px;
+			margin: 0px auto;
+			background: #F0F8FF;
+		}
+		div#leavemessage>form{
+			background: #ADFF2F;
+		}
+		div#leavemessage>form>input{
+			border: 1px solid #000000;
+			border-radius: 5px;
+			height: 20px;
+			margin-bottom: 5px;
+			/* color: #FFFFFF; */
+		}
+		div#leavemessage>form>textarea{
+			border: 1px solid #000000;
+			border-radius: 5px;
+		}
+		div#leavemessage>form>input#bt1{
+			background: #2566C2;
+			width: 50px;
+			color: #FFFFFF;
+		}
+		div#barcon{
+			/* background: #2566C2; */
+			width: 1200px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			margin: 0px auto;
+			/* color: #FFFFFF; */
+		}
+		div#barcon>a{
+			text-decoration: none;
+			color: #333333;
+			margin-left: 10px;
+		}
+		div#leavemessage2{
+			display: none;
+			position: fixed;left: 0px;bottom: 0px;
+			border: 1px solid #000000;
+			width: 100%;
+			height: 100%;
+			background: rgba(88,88,88,0.8);
+			/* opacity: 0.3; */
+		}
+		div#leavemessage2>form{
+			width: 300px;height: 300px;
+			background: #FFFFFF;
+			margin: 0px auto;
+			position: fixed;
+			left: 50%;
+			margin-left: -150px;
+			/* margin: 0px auto; */
+			top: 300px;
+			border-radius: 5px;
+			display: block;
+		}
+		div#leavemessage2>form>input{
+			border: 1px solid #000000;
+			border-radius: 5px;
+			height: 20px;
+			margin-bottom: 5px;
+			margin-top: 30px;
+		}
+		div#leavemessage2>form>input.bt1{
+			width: 200px;height: 20px;
+			border: 1px solid #000000;
+			margin-left: 50px;
+			background: #2566C2;
+			color: #FFFFFF;
+		}
+		div#leavemessage2>form>div#gb{
+			background: #CCCCCC;
+			text-align: right;
+		}
+		div#leavemessage2>form>div#gb>span#gb2{
+			display: inline-block;
+			color: #000000;
+			background: #2566C2;
+			color: #FFFFFF;
+			cursor: pointer;
+		}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/md5.js"></script>
+	<script src="js/getCookie.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<h3>复仇者留言板</h3>
+	<div id="a1">
+		<a href="#" id="dl">管理员登录</a>
+	</div>
+	<div id="div1">
+		
+	</div>
+	<div id="barcon" name="barcon"></div>
+	<div id="leavemessage">
+		<form action="leavemessage.php" method="post">
+			留言人姓名：<input type="text" name="author" id="author">
+			选择头像：<select name="face" id="face"></select>
+			<img src="face/1.gif" id="img1" alt=""><br>
+			标&nbsp;&nbsp;&nbsp;题：<input type="text" name="title" id="title"><br>
+			内&nbsp;&nbsp;&nbsp;容：<textarea name="content" id="content" cols="40" rows="5"></textarea>
+			<input type="submit" name="submit" id="bt1" value="发布">
+		</form>
+	</div>
+	<div id="leavemessage2">
+		<form action="check.php" method="post">
+			<div id="gb">
+				<span id="gb2">关闭</span><br>
+			</div>
+			管理员名称：<input type="text" name="adminName"><br>
+			密&nbsp;&nbsp;&nbsp;码：<input type="password" name="adminPwd"><br>
+			<input type="submit" name="submit" class="bt1" value="登录">
+		</form>
+	</div>
+</body>
+</html>
